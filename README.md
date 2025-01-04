@@ -47,7 +47,7 @@ control a relay using mqtt
         1. Install `MicroPython Tools` (`Settings` > `Plugins...` > `Marketplace`)
         2. Click on the M in the bottom left, than `Change settings` > `Enable MicoPython Support`
         3. Close the window by clicking `OK` and install the missing Python packages (`Install...`)
-        4. After it finished press the dropdown menu (e.g. `COM3`) to connect to the esp
+        4. After it finished, press the dropdown menu (e.g. `COM3`) to connect to the esp
         5. Than press `REPL` and `ctrl + d` to run main.py
   3. To test, press the button in the Home Assistant Dashboard. The built-in LED should be turning on and off
   4. When you are sure the program is running stable, you can connect the esp to the relay and the lamp and install it wherever you want
