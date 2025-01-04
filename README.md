@@ -19,7 +19,7 @@ control a relay using mqtt
 7. Go back to "Automations & Scenes" and create a new automation
 8. Click on the three periods and switch the view to "edit as YAML"
 9. Copy Paste the following code in there:
-  """
+  '''
   alias: Relay Light
   description: Turns on the relay based on the state from input_boolean.YOUR_SWITCH
   triggers:
@@ -32,5 +32,5 @@ control a relay using mqtt
       action: mqtt.publish
   mode: single
   
-  """
+  '''
   And change the variables written in capital into the names you want to use
